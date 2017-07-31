@@ -1,0 +1,1399 @@
+Not Found: /
+[31/Jul/2017 16:52:55] "GET / HTTP/1.1" 404 2410
+Not Found: /
+[31/Jul/2017 16:52:58] "GET / HTTP/1.1" 404 2410
+[31/Jul/2017 16:52:59] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 16:52:59] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+Not Found: /
+[31/Jul/2017 16:53:00] "GET / HTTP/1.1" 404 2410
+[31/Jul/2017 16:53:03] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:53:13] "GET /payment/create/ HTTP/1.1" 200 4605
+Not Found: /
+[31/Jul/2017 16:53:21] "GET / HTTP/1.1" 404 2410
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:52:38
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 16:54:36] "GET / HTTP/1.1" 404 74
+[31/Jul/2017 16:54:37] "GET / HTTP/1.1" 404 74
+[31/Jul/2017 16:54:40] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 16:54:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 16:54:41] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 16:54:41] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 16:54:45] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 16:54:46] "GET /admin/csacsca HTTP/1.1" 404 87
+[31/Jul/2017 16:55:56] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 16:57:34] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:57:37] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 16:57:51] "GET / HTTP/1.1" 404 74
+[31/Jul/2017 17:48:18] "GET / HTTP/1.1" 404 74
+[31/Jul/2017 17:48:19] "GET / HTTP/1.1" 404 74
+[31/Jul/2017 17:48:23] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 17:48:47] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 17:49:37] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 17:52:22] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:52:22] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[31/Jul/2017 17:52:22] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 17:52:22] "GET /static/admin/css/fonts.css HTTP/1.1" 404 100
+[31/Jul/2017 17:52:22] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 17:52:22] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:52:22] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[31/Jul/2017 17:52:26] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 17:52:26] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:52:26] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[31/Jul/2017 17:52:26] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 17:52:26] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[31/Jul/2017 17:52:26] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:52:32] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 17:52:32] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 17:52:32] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[31/Jul/2017 17:52:32] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:52:32] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 17:52:32] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 17:52:32] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[31/Jul/2017 17:52:32] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:52:34] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 17:52:34] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 17:52:34] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:52:34] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[31/Jul/2017 17:52:41] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[31/Jul/2017 17:52:42] "GET /admin/ HTTP/1.1" 200 7856
+[31/Jul/2017 17:52:42] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[31/Jul/2017 17:52:42] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:52:44] "GET /admin/ HTTP/1.1" 200 7856
+[31/Jul/2017 17:52:45] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[31/Jul/2017 17:52:45] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:52:46] "GET /admin/ HTTP/1.1" 200 7856
+[31/Jul/2017 17:52:46] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:52:46] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[31/Jul/2017 17:52:48] "GET /admin/logout/ HTTP/1.1" 200 1010
+[31/Jul/2017 17:52:49] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:52:53] "GET /admin/logout/ HTTP/1.1" 302 0
+[31/Jul/2017 17:52:53] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 17:52:53] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 17:52:54] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:52:54] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[31/Jul/2017 17:53:09] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 17:53:14] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 17:53:15] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 17:53:15] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[31/Jul/2017 17:53:15] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:53:18] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 17:53:22] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 17:53:34] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 17:53:40] "GET /payment/1 HTTP/1.1" 301 0
+[31/Jul/2017 17:53:40] "GET /payment/1/ HTTP/1.1" 500 27
+[31/Jul/2017 17:53:44] "GET /payment/2/ HTTP/1.1" 500 27
+[31/Jul/2017 17:53:51] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 17:53:55] "GET /payment/4/ HTTP/1.1" 200 3189
+[31/Jul/2017 17:54:07] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 17:54:07] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 17:54:07] "GET /static/admin/css/login.css HTTP/1.1" 404 100
+[31/Jul/2017 17:54:07] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:54:13] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[31/Jul/2017 17:54:14] "GET /admin/ HTTP/1.1" 200 7856
+[31/Jul/2017 17:54:14] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:54:14] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+[31/Jul/2017 17:54:19] "GET /admin/article/article/ HTTP/1.1" 200 4211
+[31/Jul/2017 17:54:19] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:54:19] "GET /static/admin/css/changelists.css HTTP/1.1" 404 106
+[31/Jul/2017 17:54:19] "GET /static/admin/js/core.js HTTP/1.1" 404 97
+[31/Jul/2017 17:54:19] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 117
+[31/Jul/2017 17:54:19] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 104
+[31/Jul/2017 17:54:19] "GET /static/admin/js/actions.min.js HTTP/1.1" 404 104
+[31/Jul/2017 17:54:19] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 119
+[31/Jul/2017 17:54:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 17:54:19] "GET /static/admin/js/urlify.js HTTP/1.1" 404 99
+[31/Jul/2017 17:54:19] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 404 108
+[31/Jul/2017 17:54:19] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 119
+[31/Jul/2017 17:54:23] "GET /admin/article/article/10/change/ HTTP/1.1" 200 7353
+[31/Jul/2017 17:54:23] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:54:23] "GET /static/admin/css/forms.css HTTP/1.1" 404 100
+[31/Jul/2017 17:54:23] "GET /static/admin/js/core.js HTTP/1.1" 404 97
+[31/Jul/2017 17:54:23] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 117
+[31/Jul/2017 17:54:23] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 104
+[31/Jul/2017 17:54:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 17:54:23] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 119
+[31/Jul/2017 17:54:23] "GET /static/admin/js/urlify.js HTTP/1.1" 404 99
+[31/Jul/2017 17:54:23] "GET /static/admin/js/actions.min.js HTTP/1.1" 404 104
+[31/Jul/2017 17:54:23] "GET /static/admin/js/prepopulate.min.js HTTP/1.1" 404 108
+[31/Jul/2017 17:54:23] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 119
+[31/Jul/2017 17:54:23] "GET /static/admin/js/change_form.js HTTP/1.1" 404 104
+[31/Jul/2017 17:54:23] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 110
+[31/Jul/2017 17:54:23] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 109
+[31/Jul/2017 17:54:23] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 404 107
+[31/Jul/2017 17:54:27] "GET /admin/ HTTP/1.1" 200 7856
+[31/Jul/2017 17:54:28] "GET /static/admin/css/base.css HTTP/1.1" 404 99
+[31/Jul/2017 17:54:28] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 104
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:54:34
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 17:55:21] "GET /admin/ HTTP/1.1" 200 7856
+[31/Jul/2017 17:55:21] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[31/Jul/2017 17:55:21] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[31/Jul/2017 17:55:21] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[31/Jul/2017 17:55:21] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[31/Jul/2017 17:55:21] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[31/Jul/2017 17:55:21] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[31/Jul/2017 17:55:21] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[31/Jul/2017 17:55:21] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[31/Jul/2017 17:55:23] "GET /admin/ HTTP/1.1" 200 7856
+[31/Jul/2017 17:55:29] "GET /admin/logout/ HTTP/1.1" 200 1010
+[31/Jul/2017 17:55:47] "GET /admin/article/ HTTP/1.1" 302 0
+[31/Jul/2017 17:55:48] "GET /admin/login/?next=/admin/article/ HTTP/1.1" 200 1666
+[31/Jul/2017 17:55:48] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[31/Jul/2017 17:55:57] "GET /payment/create/ HTTP/1.1" 200 4605
+Not Found: /payment/
+[31/Jul/2017 17:56:01] "GET /payment/ HTTP/1.1" 404 2452
+[31/Jul/2017 17:56:05] "GET /payment/4/ HTTP/1.1" 200 3189
+[31/Jul/2017 18:06:53] "GET /payment/create/ HTTP/1.1" 200 4605
+Not Found: /payment/
+[31/Jul/2017 18:07:06] "GET /payment/ HTTP/1.1" 404 2452
+Not Found: /payment/
+[31/Jul/2017 18:07:09] "GET /payment/ HTTP/1.1" 404 2452
+[31/Jul/2017 18:07:10] "GET /payment/4/ HTTP/1.1" 200 3189
+[31/Jul/2017 18:07:11] "GET /payment/4/ HTTP/1.1" 200 3189
+[31/Jul/2017 18:07:11] "GET /payment/4/ HTTP/1.1" 200 3189
+[31/Jul/2017 18:07:29] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 18:07:29] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 18:07:29] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[31/Jul/2017 18:07:29] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[31/Jul/2017 18:07:29] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[31/Jul/2017 18:10:41] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 18:10:58] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 18:10:58] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 18:11:10] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[31/Jul/2017 18:11:10] "GET /admin/ HTTP/1.1" 200 3889
+[31/Jul/2017 18:11:10] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[31/Jul/2017 18:11:11] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[31/Jul/2017 18:11:14] "GET /admin/article/article/ HTTP/1.1" 200 4194
+[31/Jul/2017 18:11:14] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[31/Jul/2017 18:11:14] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[31/Jul/2017 18:11:14] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[31/Jul/2017 18:11:14] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[31/Jul/2017 18:11:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 18:11:14] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[31/Jul/2017 18:11:14] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[31/Jul/2017 18:11:14] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[31/Jul/2017 18:11:14] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[31/Jul/2017 18:11:15] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[31/Jul/2017 18:11:16] "GET /admin/article/article/10/change/ HTTP/1.1" 200 7222
+[31/Jul/2017 18:11:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 18:11:25] "GET /admin/article/ HTTP/1.1" 200 2638
+[31/Jul/2017 18:11:27] "GET /admin/article/category/ HTTP/1.1" 200 4649
+[31/Jul/2017 18:11:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 18:11:28] "GET /admin/ HTTP/1.1" 200 3889
+[31/Jul/2017 18:11:31] "GET /admin/logout/ HTTP/1.1" 200 1010
+[31/Jul/2017 18:11:55] "GET /article/create/ HTTP/1.1" 200 3827
+Not Found: /favicon.ico
+[31/Jul/2017 18:11:55] "GET /favicon.ico HTTP/1.1" 404 2461
+[31/Jul/2017 18:12:06] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 18:12:11] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 18:12:24] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 18:12:24] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 18:12:25] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[31/Jul/2017 18:12:25] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[31/Jul/2017 18:12:25] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[31/Jul/2017 18:12:25] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[31/Jul/2017 18:12:25] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[31/Jul/2017 18:12:48] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1812
+[31/Jul/2017 18:12:48] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[31/Jul/2017 18:12:49] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 18:12:49] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 18:12:51] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 18:13:00] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 18:13:02] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 18:13:02] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+Not Found: /favicon.ico
+[31/Jul/2017 18:13:02] "GET /favicon.ico HTTP/1.1" 404 2461
+[31/Jul/2017 18:13:11] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[31/Jul/2017 18:13:11] "GET /admin/ HTTP/1.1" 200 3889
+[31/Jul/2017 18:13:12] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[31/Jul/2017 18:13:12] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[31/Jul/2017 18:13:12] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[31/Jul/2017 18:13:25] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 18:25:54] "GET /article/create/ HTTP/1.1" 200 3827
+Not Found: /favicon.ico
+[31/Jul/2017 18:25:54] "GET /favicon.ico HTTP/1.1" 404 2461
+[31/Jul/2017 18:27:05] "POST /article/create/ HTTP/1.1" 302 0
+[31/Jul/2017 18:27:06] "GET /article/12 HTTP/1.1" 301 0
+[31/Jul/2017 18:27:06] "GET /article/12/ HTTP/1.1" 200 49787
+[31/Jul/2017 18:27:25] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 18:31:33] "GET /payment/create/ HTTP/1.1" 200 4605
+Not Found: /favicon.ico
+[31/Jul/2017 18:31:34] "GET /favicon.ico HTTP/1.1" 404 2461
+[31/Jul/2017 18:31:47] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 18:48:06] "GET /article/create/ HTTP/1.1" 200 3827
+Not Found: /favicon.ico
+[31/Jul/2017 18:48:07] "GET /favicon.ico HTTP/1.1" 404 2461
+[31/Jul/2017 18:49:42] "POST /article/create/ HTTP/1.1" 302 0
+[31/Jul/2017 18:49:43] "GET /article/13 HTTP/1.1" 301 0
+[31/Jul/2017 18:49:43] "GET /article/13/ HTTP/1.1" 200 49775
+[31/Jul/2017 19:52:42] "GET /article/create/ HTTP/1.1" 200 3827
+Not Found: /favicon.ico
+[31/Jul/2017 19:52:43] "GET /favicon.ico HTTP/1.1" 404 2461
+[31/Jul/2017 19:52:57] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 20:57:04] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 20:57:37] "POST /article/create/ HTTP/1.1" 302 0
+[31/Jul/2017 20:57:37] "GET /article/14 HTTP/1.1" 301 0
+[31/Jul/2017 20:57:37] "GET /article/14/ HTTP/1.1" 200 49818
+[31/Jul/2017 21:01:17] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 21:01:33] "POST /article/create/ HTTP/1.1" 302 0
+[31/Jul/2017 21:01:33] "GET /article/15 HTTP/1.1" 301 0
+[31/Jul/2017 21:01:33] "GET /article/15/ HTTP/1.1" 200 49817
+[31/Jul/2017 21:01:42] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 21:01:42] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 21:01:42] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[31/Jul/2017 21:01:42] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[31/Jul/2017 21:01:42] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[31/Jul/2017 21:01:43] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[31/Jul/2017 21:01:43] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[31/Jul/2017 21:01:43] "GET /favicon.ico HTTP/1.1" 404 2461
+Not Found: /article
+[31/Jul/2017 21:01:53] "GET /article HTTP/1.1" 404 2449
+[31/Jul/2017 21:01:58] "GET /article/create HTTP/1.1" 301 0
+[31/Jul/2017 21:01:59] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 21:05:54] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 21:32:13] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 21:32:19] "GET /article/15/ HTTP/1.1" 200 49817
+[31/Jul/2017 21:32:25] "GET /article/14/ HTTP/1.1" 200 49818
+[31/Jul/2017 21:32:30] "GET /article/13/ HTTP/1.1" 200 49775
+[31/Jul/2017 21:55:25] "GET /article/create/ HTTP/1.1" 200 3827
+Not Found: /favicon.ico
+[31/Jul/2017 21:55:25] "GET /favicon.ico HTTP/1.1" 404 2461
+[31/Jul/2017 21:55:58] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 21:56:53] "POST /article/create/ HTTP/1.1" 302 0
+[31/Jul/2017 21:56:53] "GET /article/16 HTTP/1.1" 301 0
+[31/Jul/2017 21:56:54] "GET /article/16/ HTTP/1.1" 200 49763
+[31/Jul/2017 21:57:09] "GET /article/16/ HTTP/1.1" 200 49763
+[31/Jul/2017 22:31:23] "GET /article/create/ HTTP/1.1" 200 3827
+Not Found: /
+[31/Jul/2017 22:31:30] "GET / HTTP/1.1" 404 2410
+[31/Jul/2017 22:31:30] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 22:31:31] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[31/Jul/2017 22:31:31] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[31/Jul/2017 22:31:31] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[31/Jul/2017 22:31:31] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 22:31:31] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 22:31:31] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 22:31:31] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[31/Jul/2017 22:31:31] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[31/Jul/2017 22:31:31] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[31/Jul/2017 22:31:31] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[31/Jul/2017 22:31:32] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[31/Jul/2017 22:31:37] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[31/Jul/2017 22:31:37] "GET /admin/ HTTP/1.1" 200 7856
+[31/Jul/2017 22:31:37] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[31/Jul/2017 22:31:38] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[31/Jul/2017 22:31:38] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[31/Jul/2017 22:31:38] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[31/Jul/2017 22:31:41] "GET /admin/article/category/ HTTP/1.1" 200 4650
+[31/Jul/2017 22:31:41] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[31/Jul/2017 22:31:42] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[31/Jul/2017 22:31:42] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[31/Jul/2017 22:31:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:31:42] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[31/Jul/2017 22:31:42] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[31/Jul/2017 22:31:42] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[31/Jul/2017 22:31:42] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[31/Jul/2017 22:31:42] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[31/Jul/2017 22:31:42] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[31/Jul/2017 22:31:42] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[31/Jul/2017 22:31:43] "GET /admin/article/article/ HTTP/1.1" 200 5423
+[31/Jul/2017 22:31:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:31:52] "GET /admin/article/article/12/change/ HTTP/1.1" 200 7373
+[31/Jul/2017 22:31:52] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[31/Jul/2017 22:31:52] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[31/Jul/2017 22:31:52] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:31:52] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[31/Jul/2017 22:31:52] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[31/Jul/2017 22:31:59] "GET /admin/article/article/13/change/ HTTP/1.1" 200 7347
+[31/Jul/2017 22:31:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:32:01] "GET /admin/article/article/16/change/ HTTP/1.1" 200 7328
+[31/Jul/2017 22:32:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:32:07] "GET /admin/article/article/15/change/ HTTP/1.1" 200 7429
+[31/Jul/2017 22:32:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:32:09] "GET /admin/article/article/14/change/ HTTP/1.1" 200 7430
+[31/Jul/2017 22:32:09] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:32:15] "GET /admin/cssapayment/payment/ HTTP/1.1" 200 4206
+[31/Jul/2017 22:32:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:32:17] "GET /admin/cssapayment/payment/4/change/ HTTP/1.1" 200 8385
+[31/Jul/2017 22:32:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 17:55:18
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Not Found: /
+[31/Jul/2017 22:37:40] "GET / HTTP/1.1" 404 2410
+Not Found: /
+[31/Jul/2017 22:37:43] "GET / HTTP/1.1" 404 2410
+[31/Jul/2017 22:37:45] "GET /article/create/ HTTP/1.1" 200 3796
+[31/Jul/2017 22:38:00] "GET /article/create/ HTTP/1.1" 200 3796
+[31/Jul/2017 22:38:04] "GET /article/10/ HTTP/1.1" 200 49759
+[31/Jul/2017 22:38:04] "GET /article/10/ HTTP/1.1" 200 49759
+[31/Jul/2017 22:38:13] "GET /article/create/ HTTP/1.1" 200 3796
+Not Found: /article/
+[31/Jul/2017 22:38:14] "GET /article/ HTTP/1.1" 404 2452
+[31/Jul/2017 22:38:15] "GET /article/create/ HTTP/1.1" 200 3796
+[31/Jul/2017 22:38:16] "GET /admin/ HTTP/1.1" 200 7856
+[31/Jul/2017 22:38:17] "GET /admin/ HTTP/1.1" 200 7856
+[31/Jul/2017 22:38:18] "GET /admin/ HTTP/1.1" 200 7856
+[31/Jul/2017 22:38:27] "GET /admin/article/article/ HTTP/1.1" 200 5423
+[31/Jul/2017 22:38:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:38:30] "GET /admin/article/article/16/change/ HTTP/1.1" 200 7628
+[31/Jul/2017 22:38:30] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[31/Jul/2017 22:38:30] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:38:30] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[31/Jul/2017 22:38:30] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[31/Jul/2017 22:38:33] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 22:36:57
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 22:41:27
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0xb62b6ed4>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/blog/urls.py", line 18, in <module>
+    from article.views import detail
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 8, in <module>
+    class ArticleForm(forms.ModelForm):
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 261, in __new__
+    apply_limit_choices_to=False,
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 154, in fields_for_model
+    f.name, model.__name__)
+django.core.exceptions.FieldError: 'filldate' cannot be specified for Article model form as it is a non-editable field
+[31/Jul/2017 22:42:23] "GET /admin/article/article/16/change/ HTTP/1.1" 200 7474
+[31/Jul/2017 22:42:23] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:42:23] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[31/Jul/2017 22:42:23] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[31/Jul/2017 22:42:24] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[31/Jul/2017 22:42:24] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[31/Jul/2017 22:42:24] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[31/Jul/2017 22:42:24] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[31/Jul/2017 22:42:24] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[31/Jul/2017 22:42:45] "GET /admin/article/article/ HTTP/1.1" 200 5423
+[31/Jul/2017 22:42:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:42:48] "GET /admin/article/article/15/change/ HTTP/1.1" 200 7575
+[31/Jul/2017 22:42:49] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:43:01] "GET /admin/article/article/ HTTP/1.1" 200 5423
+[31/Jul/2017 22:43:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:43:03] "GET /admin/article/article/16/change/ HTTP/1.1" 200 7474
+[31/Jul/2017 22:43:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:43:07] "POST /admin/article/article/16/change/ HTTP/1.1" 302 0
+[31/Jul/2017 22:43:07] "GET /admin/article/article/ HTTP/1.1" 200 5605
+[31/Jul/2017 22:43:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:43:07] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[31/Jul/2017 22:43:12] "GET /admin/article/article/16/change/ HTTP/1.1" 200 7493
+[31/Jul/2017 22:43:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:43:18] "GET /article/16/ HTTP/1.1" 200 49768
+[31/Jul/2017 22:43:36] "GET /admin/article/ HTTP/1.1" 200 2639
+Not Found: /article/
+[31/Jul/2017 22:43:39] "GET /article/ HTTP/1.1" 404 2452
+[31/Jul/2017 22:43:41] "GET /article/create/ HTTP/1.1" 200 3796
+[31/Jul/2017 22:43:42] "GET /article/create/ HTTP/1.1" 200 3796
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 22:42:06
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 22:45:55] "GET /article/create/ HTTP/1.1" 200 3670
+[31/Jul/2017 22:45:56] "GET /article/create/ HTTP/1.1" 200 3670
+[31/Jul/2017 22:45:58] "GET /article/create/ HTTP/1.1" 200 3670
+Internal Server Error: /article/create/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 27, in create
+    new_article = form.save()
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 463, in save
+    self.instance.save()
+  File "/usr/lib/python2.7/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/lib/python2.7/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/lib/python2.7/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/lib/python2.7/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1099, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: NOT NULL constraint failed: article_article.filldate
+[31/Jul/2017 22:46:06] "POST /article/create/ HTTP/1.1" 500 124112
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 22:45:53
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 22:46:26] "GET /article/10/ HTTP/1.1" 200 49759
+[31/Jul/2017 22:46:26] "GET /article/10/ HTTP/1.1" 200 49759
+Internal Server Error: /article/1/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 18, in detail
+    article = Article.objects.get(pk=int(pk))
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+[31/Jul/2017 22:46:34] "GET /article/14/ HTTP/1.1" 200 49814
+[31/Jul/2017 22:46:34] "GET /article/1/ HTTP/1.1" 500 70368
+[31/Jul/2017 22:46:38] "GET /article/15/ HTTP/1.1" 200 49813
+Internal Server Error: /article/1/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 18, in detail
+    article = Article.objects.get(pk=int(pk))
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+[31/Jul/2017 22:46:42] "GET /article/16/ HTTP/1.1" 200 49768
+[31/Jul/2017 22:46:42] "GET /article/1/ HTTP/1.1" 500 70368
+[31/Jul/2017 22:46:42] "GET /article/16/ HTTP/1.1" 200 49768
+[31/Jul/2017 22:47:39] "GET /article/16/ HTTP/1.1" 200 49768
+Not Found: /admin/article/16/
+[31/Jul/2017 22:47:46] "GET /admin/article/16/ HTTP/1.1" 404 4954
+[31/Jul/2017 22:47:50] "GET /admin/ HTTP/1.1" 200 7846
+[31/Jul/2017 22:47:52] "GET /admin/article/article/ HTTP/1.1" 200 5423
+[31/Jul/2017 22:47:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:47:54] "GET /admin/article/article/16/change/ HTTP/1.1" 200 7493
+[31/Jul/2017 22:47:54] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 22:46:23
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 22:49:10] "GET /admin/article/article/16/change/ HTTP/1.1" 200 7495
+[31/Jul/2017 22:49:10] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:49:10] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[31/Jul/2017 22:49:10] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 22:48:41
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0xb62cd25c>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate = models.DateField(u'填寫日期YYYY-MM-DD',default=datetime.date.today)
+NameError: name 'datetime' is not defined
+Unhandled exception in thread started by <function wrapper at 0xb638280c>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 4
+    from datetime import datetime.
+                                 ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0xb6229224>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate = models.DateField(u'填寫日期YYYY-MM-DD',default=datetime.date.today)
+AttributeError: 'method_descriptor' object has no attribute 'today'
+Unhandled exception in thread started by <function wrapper at 0xb62b9224>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate = models.DateField(u'填寫日期YYYY-MM-DD',default=date.today)
+NameError: name 'date' is not defined
+Unhandled exception in thread started by <function wrapper at 0xb62b3224>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate = models.DateField(u'填寫日期YYYY-MM-DD',default=date.today)
+NameError: name 'date' is not defined
+Unhandled exception in thread started by <function wrapper at 0xb62ff224>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate = models.DateField(_("Date"), auto_now_add=True)
+NameError: name '_' is not defined
+Unhandled exception in thread started by <function wrapper at 0xb6303e9c>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/blog/urls.py", line 18, in <module>
+    from article.views import detail
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 8, in <module>
+    class ArticleForm(forms.ModelForm):
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 261, in __new__
+    apply_limit_choices_to=False,
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 154, in fields_for_model
+    f.name, model.__name__)
+django.core.exceptions.FieldError: 'filldate' cannot be specified for Article model form as it is a non-editable field
+Unhandled exception in thread started by <function wrapper at 0xb6310e9c>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/blog/urls.py", line 18, in <module>
+    from article.views import detail
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 8, in <module>
+    class ArticleForm(forms.ModelForm):
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 261, in __new__
+    apply_limit_choices_to=False,
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 154, in fields_for_model
+    f.name, model.__name__)
+django.core.exceptions.FieldError: 'filldate' cannot be specified for Article model form as it is a non-editable field
+Unhandled exception in thread started by <function wrapper at 0xb62cd224>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate = models.DateField(_("Date"), auto_now_add=True)
+NameError: name '_' is not defined
+Unhandled exception in thread started by <function wrapper at 0xb629525c>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate = models.DateTimeField(default=datetime.now, blank=True)
+NameError: name 'datetime' is not defined
+Unhandled exception in thread started by <function wrapper at 0xb6244224>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate =  models.DateField(_("Date"), default=datetime.date.today)
+NameError: name '_' is not defined
+Unhandled exception in thread started by <function wrapper at 0xb62d3224>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate =  models.DateField(_("Date"), default=datetime.date.today)
+NameError: name '_' is not defined
+Unhandled exception in thread started by <function wrapper at 0xb628a224>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate =  models.DateField(default=datetime.date.today)
+AttributeError: 'method_descriptor' object has no attribute 'today'
+Unhandled exception in thread started by <function wrapper at 0xb627a224>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate =  models.DateField(default=datetime.date.today())
+AttributeError: 'method_descriptor' object has no attribute 'today'
+Unhandled exception in thread started by <function wrapper at 0xb62d3224>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate =  models.DateField(_("Date"), auto_now_add=True)
+NameError: name '_' is not defined
+Unhandled exception in thread started by <function wrapper at 0xb6335e9c>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/blog/urls.py", line 18, in <module>
+    from article.views import detail
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 8, in <module>
+    class ArticleForm(forms.ModelForm):
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 261, in __new__
+    apply_limit_choices_to=False,
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 154, in fields_for_model
+    f.name, model.__name__)
+django.core.exceptions.FieldError: 'filldate' cannot be specified for Article model form as it is a non-editable field
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 22:56:31
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 22:57:18] "GET /admin/article/article/16/change/ HTTP/1.1" 200 7488
+[31/Jul/2017 22:57:19] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 22:57:19] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[31/Jul/2017 22:57:19] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[31/Jul/2017 22:57:30] "GET /admin/article/ HTTP/1.1" 200 2639
+[31/Jul/2017 22:57:30] "GET /admin/article/article/ HTTP/1.1" 200 5423
+Not Found: /article/
+[31/Jul/2017 22:57:33] "GET /article/ HTTP/1.1" 404 2452
+[31/Jul/2017 22:57:34] "GET /article/create/ HTTP/1.1" 200 3791
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): article.
+Run 'python manage.py migrate' to apply them.
+July 31, 2017 - 22:57:00
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0xb6339e9c>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/blog/urls.py", line 18, in <module>
+    from article.views import detail
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 8, in <module>
+    class ArticleForm(forms.ModelForm):
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 261, in __new__
+    apply_limit_choices_to=False,
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 154, in fields_for_model
+    f.name, model.__name__)
+django.core.exceptions.FieldError: 'filldate' cannot be specified for Article model form as it is a non-editable field
+Not Found: /article
+[31/Jul/2017 23:04:38] "GET /article HTTP/1.1" 404 2449
+Not Found: /article/
+[31/Jul/2017 23:04:41] "GET /article/ HTTP/1.1" 404 2452
+Internal Server Error: /article/8/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 18, in detail
+    article = Article.objects.get(pk=int(pk))
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+[31/Jul/2017 23:04:44] "GET /article/8/ HTTP/1.1" 500 70368
+[31/Jul/2017 23:04:47] "GET /article/10/ HTTP/1.1" 200 49759
+[31/Jul/2017 23:04:47] "GET /article/10/ HTTP/1.1" 200 49759
+Not Found: /article/
+[31/Jul/2017 23:04:53] "GET /article/ HTTP/1.1" 404 2452
+Internal Server Error: /article/1/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 18, in detail
+    article = Article.objects.get(pk=int(pk))
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+[31/Jul/2017 23:05:18] "GET /article/1/ HTTP/1.1" 500 70368
+[31/Jul/2017 23:05:18] "GET /article/14/ HTTP/1.1" 200 49814
+[31/Jul/2017 23:05:19] "GET /article/14/ HTTP/1.1" 200 49814
+Internal Server Error: /article/1/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 18, in detail
+    article = Article.objects.get(pk=int(pk))
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+[31/Jul/2017 23:05:25] "GET /article/1/ HTTP/1.1" 500 70368
+[31/Jul/2017 23:05:26] "GET /article/15/ HTTP/1.1" 200 49813
+[31/Jul/2017 23:05:26] "GET /article/15/ HTTP/1.1" 200 49813
+[31/Jul/2017 23:05:30] "GET /article/16/ HTTP/1.1" 200 49768
+[31/Jul/2017 23:05:30] "GET /article/16/ HTTP/1.1" 200 49768
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 23:04:12
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0xb62fce9c>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/blog/urls.py", line 18, in <module>
+    from article.views import detail
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 8, in <module>
+    class ArticleForm(forms.ModelForm):
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 261, in __new__
+    apply_limit_choices_to=False,
+  File "/usr/lib/python2.7/site-packages/django/forms/models.py", line 154, in fields_for_model
+    f.name, model.__name__)
+django.core.exceptions.FieldError: 'filldate' cannot be specified for Article model form as it is a non-editable field
+[31/Jul/2017 23:10:07] "GET /article/16/ HTTP/1.1" 200 49768
+[31/Jul/2017 23:10:09] "GET /article/16/ HTTP/1.1" 200 49768
+[31/Jul/2017 23:10:14] "GET /article/create/ HTTP/1.1" 200 3791
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 23:09:44
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0xb622825c>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 11, in <module>
+    class Article(models.Model):
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 14, in Article
+    filldate =  DateTimeField(u'Date YYYY-MM-DD')
+NameError: name 'DateTimeField' is not defined
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 23:12:13
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 23:13:03] "GET /article/create/ HTTP/1.1" 200 3919
+[31/Jul/2017 23:13:06] "GET /article/create/ HTTP/1.1" 200 3919
+Not Found: /article/
+[31/Jul/2017 23:13:15] "GET /article/ HTTP/1.1" 404 2452
+Internal Server Error: /article/1/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 18, in detail
+    article = Article.objects.get(pk=int(pk))
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+[31/Jul/2017 23:13:17] "GET /article/1/ HTTP/1.1" 500 70368
+[31/Jul/2017 23:13:17] "GET /article/16/ HTTP/1.1" 200 49759
+[31/Jul/2017 23:13:17] "GET /article/16/ HTTP/1.1" 200 49759
+Internal Server Error: /article/1/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 18, in detail
+    article = Article.objects.get(pk=int(pk))
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+[31/Jul/2017 23:13:22] "GET /article/1/ HTTP/1.1" 500 70368
+[31/Jul/2017 23:13:22] "GET /article/17 HTTP/1.1" 301 0
+Internal Server Error: /article/17/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 18, in detail
+    article = Article.objects.get(pk=int(pk))
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+[31/Jul/2017 23:13:23] "GET /article/17/ HTTP/1.1" 500 70386
+[31/Jul/2017 23:13:26] "GET /article/16/ HTTP/1.1" 200 49759
+[31/Jul/2017 23:13:26] "GET /article/16/ HTTP/1.1" 200 49759
+Internal Server Error: /article/1/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 18, in detail
+    article = Article.objects.get(pk=int(pk))
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+[31/Jul/2017 23:13:30] "GET /article/1/ HTTP/1.1" 500 70368
+[31/Jul/2017 23:13:30] "GET /article/15/ HTTP/1.1" 200 49813
+[31/Jul/2017 23:13:30] "GET /article/15/ HTTP/1.1" 200 49813
+[31/Jul/2017 23:13:35] "GET /article/14/ HTTP/1.1" 200 49814
+[31/Jul/2017 23:13:35] "GET /article/14/ HTTP/1.1" 200 49814
+[31/Jul/2017 23:14:18] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 23:14:22] "GET /article/create/ HTTP/1.1" 200 3919
+[31/Jul/2017 23:14:36] "POST /article/create/ HTTP/1.1" 302 0
+[31/Jul/2017 23:14:36] "GET /article/17 HTTP/1.1" 301 0
+[31/Jul/2017 23:14:36] "GET /article/17/ HTTP/1.1" 200 49779
+[31/Jul/2017 23:16:09] "GET /admin/article/article/ HTTP/1.1" 200 5662
+[31/Jul/2017 23:16:09] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:16:12] "GET /admin/article/ HTTP/1.1" 200 2639
+[31/Jul/2017 23:16:14] "GET /admin/article/article/ HTTP/1.1" 200 5662
+[31/Jul/2017 23:16:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:16:15] "GET /admin/article/article/10/change/ HTTP/1.1" 200 7786
+[31/Jul/2017 23:16:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:16:26] "POST /admin/article/article/10/change/ HTTP/1.1" 200 7985
+[31/Jul/2017 23:16:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:16:45] "POST /admin/article/article/10/change/ HTTP/1.1" 302 0
+[31/Jul/2017 23:16:45] "GET /admin/article/article/ HTTP/1.1" 200 5853
+[31/Jul/2017 23:16:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:16:48] "GET /admin/article/article/17/change/ HTTP/1.1" 200 7866
+[31/Jul/2017 23:16:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:16:51] "GET /admin/article/article/ HTTP/1.1" 200 5662
+[31/Jul/2017 23:16:51] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:16:59] "POST /admin/article/article/ HTTP/1.1" 200 3986
+[31/Jul/2017 23:16:59] "GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+[31/Jul/2017 23:17:00] "POST /admin/article/article/ HTTP/1.1" 302 0
+[31/Jul/2017 23:17:01] "GET /admin/article/article/ HTTP/1.1" 200 4319
+[31/Jul/2017 23:17:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:17:04] "GET /admin/article/ HTTP/1.1" 200 2639
+[31/Jul/2017 23:17:06] "GET /admin/article/category/ HTTP/1.1" 200 4650
+[31/Jul/2017 23:17:06] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:17:08] "GET /admin/ HTTP/1.1" 200 7713
+[31/Jul/2017 23:17:08] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[31/Jul/2017 23:17:14] "GET /admin/auth/user/ HTTP/1.1" 200 7304
+[31/Jul/2017 23:17:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:17:14] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[31/Jul/2017 23:17:15] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[31/Jul/2017 23:17:18] "GET /admin/ HTTP/1.1" 200 7713
+[31/Jul/2017 23:17:21] "GET /admin/cssapayment/category/ HTTP/1.1" 200 4453
+[31/Jul/2017 23:17:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:17:24] "GET /admin/cssapayment/ HTTP/1.1" 200 2695
+[31/Jul/2017 23:17:25] "GET /admin/cssapayment/payment/ HTTP/1.1" 200 4206
+[31/Jul/2017 23:17:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:17:27] "GET /admin/cssapayment/payment/4/change/ HTTP/1.1" 200 8385
+[31/Jul/2017 23:17:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[31/Jul/2017 23:17:30] "GET /admin/logout/ HTTP/1.1" 200 1010
+Not Found: /
+[31/Jul/2017 23:17:35] "GET / HTTP/1.1" 404 2410
+[31/Jul/2017 23:17:35] "GET /admin/ HTTP/1.1" 302 0
+[31/Jul/2017 23:17:35] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+Internal Server Error: /article/2/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 18, in detail
+    article = Article.objects.get(pk=int(pk))
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+Internal Server Error: /article/2/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 18, in detail
+    article = Article.objects.get(pk=int(pk))
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+[31/Jul/2017 23:17:36] "GET /article/2/ HTTP/1.1" 500 69944
+[31/Jul/2017 23:17:36] "GET /article/2/ HTTP/1.1" 500 69944
+[31/Jul/2017 23:17:39] "GET /article/create/ HTTP/1.1" 200 3919
+[31/Jul/2017 23:17:40] "GET /article/create/ HTTP/1.1" 200 3919
