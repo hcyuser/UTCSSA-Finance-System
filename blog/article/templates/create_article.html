@@ -1,10 +1,84 @@
 <html>
-<head></head>
-<body>
-<form action="." method="POST">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" />
-</form>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>資訊科學系 系學會 財務系統</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="http://www.hcy.idv.tw/cssa/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="http://www.hcy.idv.tw/cssa/css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top">資訊科學系 系學會 財務系統</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li class="hidden">
+                      <a class="page-scroll" href="#page-top"></a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#about">請款系統</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="http://www.hcy.idv.tw/cssa/#services">會費繳納</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="http://www.hcy.idv.tw/cssa/#contact">聯絡我</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+  </nav>
+  <section id="about" class="about-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1>請款系統</h1>
+              </div>
+              <form action="." method="POST">
+                  {% csrf_token %}
+                  {{ form.as_p }}
+                  <input type="submit" />
+              </form>
+          </div>
+      </div>
+  </section>
+
+
+
+
+
+<script src="http://www.hcy.idv.tw/cssa/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="http://www.hcy.idv.tw/cssa/js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="http://www.hcy.idv.tw/cssa/js/jquery.easing.min.js"></script>
+<script src="http://www.hcy.idv.tw/cssa/js/scrolling-nav.js"></script>
 </body>
 </html>

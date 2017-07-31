@@ -9,6 +9,10 @@ class ArticleForm(forms.ModelForm):
     class Meta:
         model = Article
         fields = ['title', 'uid','filldate','applycost','content', ]
+        widgets = {
+          'title': forms.Textarea(attrs={'rows':4, 'cols':60}),
+          'content': forms.Textarea(attrs={'rows':2, 'cols':60}),
+        }
 
 def detail(request, pk):
     article = Article.objects.get(pk=int(pk))

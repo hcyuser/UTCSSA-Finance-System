@@ -1900,3 +1900,471 @@ Not Found: /payment/
 [31/Jul/2017 15:41:00] "GET /payment/ HTTP/1.1" 404 2452
 Not Found: /payment/
 [31/Jul/2017 15:41:01] "GET /payment/ HTTP/1.1" 404 2452
+Internal Server Error: /article/2/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 14, in detail
+    article = Article.objects.get(pk=int(pk))
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+[31/Jul/2017 15:45:01] "GET /article/2/ HTTP/1.1" 500 70031
+Not Found: /
+[31/Jul/2017 15:45:04] "GET / HTTP/1.1" 404 2410
+[31/Jul/2017 15:45:04] "GET /payment/2/ HTTP/1.1" 200 199
+[31/Jul/2017 15:45:05] "GET /payment/2/ HTTP/1.1" 200 199
+[31/Jul/2017 15:47:42] "GET /payment/2/ HTTP/1.1" 200 726
+[31/Jul/2017 15:47:43] "GET /payment/2/ HTTP/1.1" 200 726
+[31/Jul/2017 15:47:49] "GET /payment/2/ HTTP/1.1" 200 726
+[31/Jul/2017 15:48:40] "GET /payment/2/ HTTP/1.1" 200 1079
+[31/Jul/2017 15:48:41] "GET /payment/2/ HTTP/1.1" 200 1079
+[31/Jul/2017 15:48:42] "GET /payment/2/ HTTP/1.1" 200 1079
+[31/Jul/2017 15:49:33] "GET /payment/2/ HTTP/1.1" 200 1143
+[31/Jul/2017 15:49:35] "GET /payment/2/ HTTP/1.1" 200 1143
+[31/Jul/2017 15:50:03] "GET /payment/2/ HTTP/1.1" 200 2712
+[31/Jul/2017 15:50:05] "GET /payment/2/ HTTP/1.1" 200 2712
+[31/Jul/2017 15:51:03] "GET /payment/2/ HTTP/1.1" 200 3091
+[31/Jul/2017 15:51:04] "GET /payment/2/ HTTP/1.1" 200 3091
+[31/Jul/2017 15:51:05] "GET /payment/2/ HTTP/1.1" 200 3091
+[31/Jul/2017 15:52:19] "GET /payment/2/ HTTP/1.1" 200 3167
+[31/Jul/2017 15:53:32] "GET /payment/2/ HTTP/1.1" 200 3136
+[31/Jul/2017 15:54:46] "GET /payment/2/ HTTP/1.1" 200 3190
+[31/Jul/2017 15:56:50] "GET /payment/2/ HTTP/1.1" 200 3190
+Not Found: /payment/
+[31/Jul/2017 15:56:54] "GET /payment/ HTTP/1.1" 404 2452
+[31/Jul/2017 15:56:55] "GET /payment/create/ HTTP/1.1" 200 4574
+[31/Jul/2017 15:56:56] "GET /payment/create/ HTTP/1.1" 200 4574
+[31/Jul/2017 15:57:42] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 15:58:07] "POST /payment/create/ HTTP/1.1" 302 0
+[31/Jul/2017 15:58:07] "GET /payment/3 HTTP/1.1" 301 0
+[31/Jul/2017 15:58:07] "GET /payment/3/ HTTP/1.1" 200 3187
+[31/Jul/2017 16:00:28] "GET /article/create/ HTTP/1.1" 200 3835
+[31/Jul/2017 16:00:50] "GET /article/create/ HTTP/1.1" 200 3835
+[31/Jul/2017 16:02:28] "GET /article/create/ HTTP/1.1" 200 3829
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 15:37:10
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0xb636380c>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 13
+    title = models.TextField(u'購買品項(EX: 蘇打餅X1)','widget': Textarea(attrs={'rows':4, 'cols':40}))
+                                                                      ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0xb628980c>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 13
+    title = models.TextField(u'購買品項(EX: 蘇打餅X1)','widget': Textarea(attrs={'rows':4, 'cols':40}))
+                                                                      ^
+SyntaxError: invalid syntax
+Not Found: /
+[31/Jul/2017 16:06:28] "GET / HTTP/1.1" 404 2410
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:06:27
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0xb629780c>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 250, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/article/models.py", line 13
+    title = models.TextField(u'購買品項(EX: 蘇打餅X1)','widget': Textarea(attrs={'rows':4, 'cols':40}))
+                                                                      ^
+SyntaxError: invalid syntax
+Not Found: /
+[31/Jul/2017 16:07:19] "GET / HTTP/1.1" 404 2410
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:07:17
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Not Found: /
+[31/Jul/2017 16:07:49] "GET / HTTP/1.1" 404 2410
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:07:47
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Not Found: /
+[31/Jul/2017 16:10:21] "GET / HTTP/1.1" 404 2410
+Not Found: /
+[31/Jul/2017 16:10:23] "GET / HTTP/1.1" 404 2410
+Not Found: /
+[31/Jul/2017 16:10:25] "GET / HTTP/1.1" 404 2410
+[31/Jul/2017 16:10:28] "GET /article/create/ HTTP/1.1" 200 3828
+[31/Jul/2017 16:10:30] "GET /article/create/ HTTP/1.1" 200 3828
+[31/Jul/2017 16:10:32] "GET /article/create/ HTTP/1.1" 200 3828
+[31/Jul/2017 16:10:37] "GET /article/create/ HTTP/1.1" 200 3828
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:10:18
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 16:11:01] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:11:02] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:11:03] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:11:05] "GET /article/create/ HTTP/1.1" 200 3827
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:10:54
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 16:11:23] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:11:24] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:11:25] "GET /article/create/ HTTP/1.1" 200 3827
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:11:22
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 16:11:50] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:11:51] "GET /article/create/ HTTP/1.1" 200 3827
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:11:49
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 16:12:04] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:12:06] "GET /article/create/ HTTP/1.1" 200 3827
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:12:04
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 16:12:18] "GET /article/create/ HTTP/1.1" 200 3828
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:12:17
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 16:12:28] "GET /article/create/ HTTP/1.1" 200 3828
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:12:26
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 16:12:41] "GET /article/create/ HTTP/1.1" 200 3828
+[31/Jul/2017 16:12:43] "GET /article/create/ HTTP/1.1" 200 3828
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:12:41
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 16:12:51] "GET /article/create/ HTTP/1.1" 200 3828
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:12:51
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:13:21
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 16:13:30] "GET /article/create/ HTTP/1.1" 200 3828
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:13:30
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 16:13:50] "GET /article/create/ HTTP/1.1" 200 3828
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:13:50
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0xb6304dbc>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/blog/urls.py", line 18, in <module>
+    from article.views import detail
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 14
+    'content': forms.Textarea(attrs={'rows':2, 'cols':70),
+                                                        ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0xb6270dbc>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/blog/urls.py", line 18, in <module>
+    from article.views import detail
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 14
+    'content': forms.Textarea(attrs={'rows':2, 'cols':70),
+                                                        ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0xb62a3dbc>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/blog/urls.py", line 18, in <module>
+    from article.views import detail
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 14
+    'content': forms.Textarea(attrs={'rows':2, 'cols':70),
+                                                        ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0xb62c7dbc>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/blog/urls.py", line 18, in <module>
+    from article.views import detail
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 14
+    'content': forms.Textarea(attrs={'rows':2, 'cols':70),
+                                                        ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0xb6336dbc>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 227, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/volume1/homes/hcyuser/www/blog/blog/urls.py", line 18, in <module>
+    from article.views import detail
+  File "/volume1/homes/hcyuser/www/blog/article/views.py", line 14
+    'content': forms.Textarea(attrs={'rows':2, 'cols':70),
+                                                        ^
+SyntaxError: invalid syntax
+[31/Jul/2017 16:15:12] "GET /article/create/ HTTP/1.1" 200 3829
+[31/Jul/2017 16:15:15] "GET /article/create/ HTTP/1.1" 200 3829
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 16:15:12
+Django version 1.11.3, using settings 'blog.settings'
+Starting development server at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[31/Jul/2017 16:15:30] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:16:03] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:16:13] "GET /payment/3/ HTTP/1.1" 200 3187
+[31/Jul/2017 16:16:19] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 16:18:59] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:22:50] "GET /payment/create/ HTTP/1.1" 200 4605
+[31/Jul/2017 16:23:29] "GET /article/create/ HTTP/1.1" 200 3827
+Not Found: /
+[31/Jul/2017 16:23:33] "GET / HTTP/1.1" 404 2410
+[31/Jul/2017 16:23:33] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[31/Jul/2017 16:23:33] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[31/Jul/2017 16:23:34] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[31/Jul/2017 16:23:34] "GET /admin/ HTTP/1.1" 200 7774
+[31/Jul/2017 16:23:34] "GET /admin/ HTTP/1.1" 200 7774
+[31/Jul/2017 16:23:49] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:23:50] "GET /article/create/ HTTP/1.1" 200 3827
+[31/Jul/2017 16:24:11] "GET /admin/ HTTP/1.1" 200 7774
+[31/Jul/2017 16:24:14] "GET /admin/ HTTP/1.1" 200 7774
+[31/Jul/2017 16:24:29] "GET /admin/ HTTP/1.1" 200 7774
