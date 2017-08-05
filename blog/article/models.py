@@ -14,7 +14,7 @@ class Article(models.Model):
     filldate =  models.DateTimeField(u'Date YYYY-MM-DD',default=datetime.now)
     applycost = models.CharField(u'請款金額',default='0',max_length=8)
     content = models.TextField(u'事由')
-
+    upload = models.FileField(u'發票上傳',upload_to='uploads/',default='/uploads/anonymous.png')
     category = models.ForeignKey('Category', blank=True, null=True)
 
     def __unicode__(self):
