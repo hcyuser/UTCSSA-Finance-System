@@ -47,6 +47,15 @@
                   <li>
                       <a class="page-scroll" href="http://www.hcy.idv.tw/cssa/#contact">聯絡我</a>
                   </li>
+                  <li>
+                      <a class="page-scroll" href="http://nas.hcy.idv.tw:8000/admin/">系統後台</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="http://nas.hcy.idv.tw:8000/">請款總表</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="http://nas.hcy.idv.tw:8000/payment/total/">會費總表</a>
+                  </li>
               </ul>
           </div>
           <!-- /.navbar-collapse -->
@@ -59,10 +68,13 @@
               <div class="col-lg-12">
                   <h1>請款系統</h1>
               </div>
-              <form enctype="multipart/form-data" method="post">
+              <form enctype="multipart/form-data" method="post" class="form-inline">
+                  <div class="form-group">
                   {% csrf_token %}
                   {{ form.as_p }}
-                  <input type="submit" />
+                  <input type="submit" class="btn btn-default" />
+                </div>
+
               </form>
           </div>
       </div>

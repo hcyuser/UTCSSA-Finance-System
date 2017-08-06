@@ -31,3 +31,8 @@ def create(request):
 
     form = ArticleForm()
     return render(request, 'create_article.html', {'form': form})
+
+
+def home(request):
+    article =  Article.objects.all()
+    return render(request, "index.html", {'article': article})

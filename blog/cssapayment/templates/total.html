@@ -42,7 +42,7 @@
                       <a class="page-scroll" href="http://www.hcy.idv.tw/cssa/#about">請款系統</a>
                   </li>
                   <li>
-                      <a class="page-scroll" href="#services">會費繳納</a>
+                      <a class="page-scroll" href="http://www.hcy.idv.tw/cssa/#services">會費繳納</a>
                   </li>
                   <li>
                       <a class="page-scroll" href="http://www.hcy.idv.tw/cssa/#contact">聯絡我</a>
@@ -54,7 +54,7 @@
                       <a class="page-scroll" href="http://nas.hcy.idv.tw:8000/">請款總表</a>
                   </li>
                   <li>
-                      <a class="page-scroll" href="http://nas.hcy.idv.tw:8000/payment/total/">會費總表</a>
+                      <a class="page-scroll" href="#apply">會費總表</a>
                   </li>
               </ul>
           </div>
@@ -62,19 +62,54 @@
       </div>
       <!-- /.container -->
   </nav>
-  <section id="services" class="services-section">
+  <section id="apply" class="services-section">
       <div class="container">
           <div class="row">
               <div class="col-lg-12">
-                  <h3>會費繳納完成請填此表單</h3>
+                  <h3>會費總表</h3>
               </div>
-              <form action="." method="POST">
-                  <div class="form-group">
-                  {% csrf_token %}
-                  {{ form.as_p }}
-                  <input type="submit" class="btn btn-default" />
-                </div>
-              </form>
+              <div class="table">
+              <table class="table">
+              <thead>
+              <tr><th>姓名</th><th>學號</th><th>性別</th><th>付款方式</th><th>宿營意願</th><th>金額</th><th>狀態</th></tr>
+              </thead>
+              {% for i in pay %}
+                  <tr>
+                  <td>{{ i.name }}</td><td>{{ i.uid }}</td><td>{{ i.gender }}</td><td>{{ i.paymentway }}</td><td>{{ i.choicecamp }}</td>
+                  <td>{{ i.money }}</td><td>{{ i.category }}</td>
+                  </tr>
+              {% endfor %}
+              </table>
+              </div>
+              <div class="table">
+              <table class="table">
+              <thead>
+              <tr><th>代碼</th><th>中文</th></tr>
+              </thead>
+                  <tr>
+                  <td>0131</td><td>國泰世華商業銀行CUCB 轉帳</td>
+                  </tr>
+                  <tr>
+                  <td>0132</td><td>國泰世華商業銀行CUCB 無摺存款</td>
+                  </tr>
+                  <tr>
+                  <td>8221</td><td>中國信託CTBC 轉帳</td>
+                  </tr>
+                  <tr>
+                  <td>8222</td><td>中國信託CTBC 無摺存款'</td>
+                  </tr>
+                  <tr>
+                  <td>7001</td><td>中華郵政Chunghwa Post 轉帳</td>
+                  </tr>
+                  <tr>
+                  <td>7002</td><td>中華郵政Chunghwa Post 無摺存款</td>
+                  </tr>
+                  <tr>
+                  <td>9999</td><td>親自收款</td>
+                  </tr>
+              </table>
+              </div>
+
           </div>
       </div>
   </section>

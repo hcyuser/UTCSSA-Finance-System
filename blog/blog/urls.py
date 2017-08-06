@@ -17,14 +17,18 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls import url
 from django.contrib import admin
+from article.views import home
 from article.views import detail
 from article.views import create
 from cssapayment.views import paymentdetail
 from cssapayment.views import createpayment
+from cssapayment.views import totalpayment
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^article/(?P<pk>[0-9]+)/$', detail),
     url(r'^article/create/$', create),
     url(r'^payment/(?P<pk>[0-9]+)/$', paymentdetail),
     url(r'^payment/create/$', createpayment),
+    url(r'^payment/total/$', totalpayment),
+    url(r'^$', home),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

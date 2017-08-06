@@ -28,3 +28,10 @@ def createpayment(request):
 
     form = PaymentForm()
     return render(request, 'create_payment.html', {'form': form})
+
+def totalpayment(request):
+    pay =  Payment.objects.all()
+    if request.user.is_authenticated:
+        return render(request, "total.html", {'pay': pay})
+    else:
+         return HttpResponseRedirect('/admin/login/?next=%s' % request.path)        
