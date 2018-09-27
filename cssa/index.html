@@ -16,6 +16,11 @@
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+    <script>
+        function CloseAlert() {
+          alert("系統已經關閉 The system is closed.");
+        }
+    </script>
 
 </head>
 
@@ -53,13 +58,13 @@
                         <a class="page-scroll" href="#contact">聯絡我</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://nas.hcy.idv.tw:8000/admin/">系統後台</a>
+                        <a class="page-scroll" onclick="CloseAlert()">系統後台</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://nas.hcy.idv.tw:8000/">請款總表</a>
+                        <a class="page-scroll" onclick="CloseAlert()">請款總表</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://nas.hcy.idv.tw:8000/payment/total/">會費總表</a>
+                        <a class="page-scroll" onclick="CloseAlert()">會費總表</a>
                     </li>
                 </ul>
             </div>
@@ -81,7 +86,7 @@
                 <li>將紙本發票掃描(拍照)成PDF||JPG||JPEG||PNG格式</li>
                 <li>進入網頁確實填報，按下確認按鈕後，使用A4紙張列印網頁</li>
                 <li>將 1.紙本請款單 2.發票正本 3.發票影本 交給系學會總務股</li>
-                <li><a href="http://nas.hcy.idv.tw:8000/article/create/">進入系統</a></li>
+                <li><a onclick="CloseAlert()">進入系統</a></li>
             </div>
         </div>
     </section>
@@ -93,7 +98,7 @@
                 <div class="col-lg-12">
                     <h1>會費繳納</h1>
 
-                    <h2><a href="http://nas.hcy.idv.tw:8000/payment/create/">完成繳納請進入系統</a></h2>
+                    <h2><a onclick="CloseAlert()">完成繳納請進入系統</a></h2>
                 </div>
             </div>
         </div>
@@ -104,7 +109,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>系統有問題，請寄信給我-黃志揚</h1>
+                    <h1>系統有問題，請寄信給我</h1>
                     <h2>U10416001@go.utaipei.edu.tw</h2>
                 </div>
             </div>
